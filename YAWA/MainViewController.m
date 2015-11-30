@@ -102,7 +102,7 @@
     self.locationPickerController.delegate = self;
     
     // Some cities by default, we can add more in the future
-    self.locationPickerController.serverURL = @"https://raw.githubusercontent.com/jlsuarezs/MBPlacePickerController/master/server-locations.json";
+    self.locationPickerController.serverURL = @"https://raw.githubusercontent.com/jlsuarezs/MBPlacePickerController/master/MBPlacePickerController/MBPlacePickerController/Resources/locations.json";
     [self.locationPickerController enableAutomaticUpdates];
     
     // Cache system, prepare to watch!
