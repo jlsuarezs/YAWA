@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CGLDefaultsBackedPropertyObserver (0.1.0)
+  - FLAnimatedImage (1.0.8)
+  - LMGeocoder (1.0.4)
+  - MBPlacePickerController (2.3.1)
+  - PINCache (2.1.2)
+  - PINRemoteImage (1.2.2):
+    - PINRemoteImage/FLAnimatedImage (= 1.2.2)
+  - PINRemoteImage/Core (1.2.2):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (1.2.2):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CGLDefaultsBackedPropertyObserver
+  - LMGeocoder
+  - MBPlacePickerController
+  - PINRemoteImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CGLDefaultsBackedPropertyObserver: 1f9e3af683fb6b5934046d1332b34ed03d57dd9e
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
+  LMGeocoder: a0f635f948b0ca420d8d338e54886744cdcb215d
+  MBPlacePickerController: efb8b65bdc39663ae1d613255a3d1d7a41ebce45
+  PINCache: 9e70271f1bdd60c0465b7208adcc4b6acc1fc376
+  PINRemoteImage: 9f6f484bbceee15e2df5aee0beeac2e261e4ac81
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module MBPlacePickerController {
+  umbrella header "MBPlacePickerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

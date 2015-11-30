@@ -1,0 +1,6 @@
+framework module CGLDefaultsBackedPropertyObserver {
+  umbrella header "CGLDefaultsBackedPropertyObserver-umbrella.h"
+
+  export *
+  module * { export * }
+}
